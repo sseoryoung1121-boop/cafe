@@ -44,6 +44,10 @@ body {
     height: 120px;
 }
 
+.header h1 img {
+    display: block;
+}
+
 .header .gnb>ul {
     display: flex;
     gap: 64px;
@@ -100,6 +104,8 @@ body {
 .header .gnb:hover::after {
     height: 280px;
 }
+
+
 
 .main_visual {}
 
