@@ -32,6 +32,8 @@ body {
     margin-left: 16px;
 }
 
+
+
 .header {
     position: relative;
     border-bottom: 1px solid #ddd;
@@ -259,6 +261,7 @@ body {
 
 .main_info .inner .itm .txt_box {
     margin-top: 16px;
+    line-height: 24px;
 }
 
 .main_info .inner .itm .txt_box strong {
