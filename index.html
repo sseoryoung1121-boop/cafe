@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카페 홈페이지</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <div class="inner">
+            <h1>
+                <a href="/">
+                    <img src="./images/bottom_logo 1.png" alt="">
+                </a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="#">회사소개</a>
+                        <ul>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">제품소개</a>
+                        <ul>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">오시는길</a>
+                        <ul>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">문의게시판</a>
+                        <ul>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">공지사항</a>
+                        <ul>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="utils">
+                <a href="#">
+                    <i data-lucide="menu"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 메인 비주얼 -->
+    <section class="main_visual">
+        <h2 class="blind">메인비주얼</h2>
+
+        <div class="swiper main_visual_slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide itm itm01">
+                    <div class="slg">
+                        <strong>한 잔의 여유, 하루의 쉼표.</strong>
+                        <p>바쁜 일상 속에서 잠시 멈춰, 당신만의 시간을 즐겨보세요.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide itm itm02">
+                    <div class="slg">
+                        <strong>커피가 머무는 곳, 사람이 머무는 곳.</strong>
+                        <p>편안한 공간에서 좋은 사람들과 함께하는 시간을 제공합니다.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide itm itm03">
+                    <div class="slg">
+                        <strong>일상의 온도를 높이다.</strong>
+                        <p>한 잔의 커피로 당신의 하루에 따뜻함을 더합니다.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrows">
+                <button class="prev">
+                    <i data-lucide="arrow-big-left-dash" class="icon"></i>
+                </button>
+                <button class="next">
+                    <i data-lucide="arrow-big-right-dash" class="icon"></i>
+                </button>
+            </div>
+            <div class="page"></div>
+        </div>
+    </section>
+
+    <!-- 메인 인포 -->
+    <section class="main_info">
+        <div class="title">
+            <h2>오늘도, 당신을 위한 한 잔.</h2>
+            <p>정성껏 준비한 커피로 하루를 특별하게 만들어드립니다.</p>
+        </div>
+
+        <div class="inner">
+            <div class="itm">
+                <div class="img_box">
+                    <img src="./images/img01.jpg" alt="">
+                </div>
+                <div class="txt_box">
+                    <strong>커피 (Coffee)</strong>
+                    <p>한 잔에 담긴 깊은 향과 온기로,<br>
+                        당신의 하루를 부드럽게 채웁니다.</p>
+                </div>
+            </div>
+
+            <div class="itm">
+                <div class="img_box">
+                    <img src="./images/img02.jpg" alt="">
+                </div>
+                <div class="txt_box">
+                    <strong>디저트 (Dessert)</strong>
+                    <p>달콤한 한 입이 작은 행복이 되어,<br>
+                        일상에 기분 좋은 여유를 더합니다.</p>
+                </div>
+            </div>
+
+            <div class="itm">
+                <div class="img_box">
+                    <img src="./images/img03.jpg" alt="">
+                </div>
+                <div class="txt_box">
+                    <strong>분위기 (Ambience)</strong>
+                    <p>잔잔한 음악과 따뜻한 감성으로,<br>
+                        머무는 순간을 더욱 특별하게 만듭니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 배너 -->
+    <section class="main_banner">
+        <div class="slg">
+            <h2>Sip the Moment</h2>
+            <p>일상의 순간을 천천히 음미하며, 커피 한 잔의 여유를 즐겨보세요.</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="inner">
+            서울특별시 강남구 압구정로 459(청담동, 한솥빌딩)
+        </div>
+        <div class="inner">
+            COPYRIGHT&copy;㈜한솥. ALL RIGHTS RESERVED.
+        </div>
+    </footer>
+</body>
+
+</html>
